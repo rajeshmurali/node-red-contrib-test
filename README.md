@@ -1,6 +1,6 @@
 node-red-nodes-test
 ======================
-A <a href="http://nodered.org" target="_new">BIBA-Rajesh</a> UI that attempts to  fetch the data using the Input url.
+A <a href="http://www.biba.uni-bremen.de/institut/mitarbeiter/homepage.html?nick=raj" target="_new">BIBA-Rajesh</a> UI that attempts to  fetch the data using the Input url.
 
 
 Install
@@ -21,7 +21,7 @@ Uses the Csharpliblib npm to fetch the data using the Input url and create a jso
 
 
 
-Contains the output in `msg.payload`. 
+Contains the output in `msg.payload`.
 
 
 
