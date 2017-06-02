@@ -1,0 +1,28 @@
+{
+
+	"name"          : "node-red-node-csharplib",
+	"version"       : "0.0.1",
+	"description"   : "A Node-RED for Csharplib.",
+	"dependencies"  : {
+
+	     "csharplib"   : "0.0.1"
+	 },
+	"repository" : {
+
+        "type":"git",
+	       "url":"https://github.com/iotfablab/node-red-flowchart-frontend"
+
+         },
+	"license": "Apache-2.0",
+	"keywords": [ "frontend", "Csharplib" ],
+	"node-red"      : {
+	      "nodes"   : {
+		    "test": "wtf.js"
+	       }
+	},
+	"author":{
+	    "name": "Rajesh Murali",
+	    "email":"raj@biba.uni-bremen.de",
+	     "url":"http://www.biba.uni-bremen.de/institut/mitarbeiter/homepage.html?nick=raj"
+	}
+}

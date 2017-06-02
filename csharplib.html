@@ -1,0 +1,41 @@
+<!-- Html file corrsponding to the Csharplib.js file                         -->
+
+<!-- This creates and configures the onscreen elements of the node           -->
+<!-- defining the content of the edit dialog as the first step               -->
+<script type="text/x-red" data-template-name="csharplib">
+   <div class="form-row">
+
+	    <label for="node-input-name"><i class="fa fa-tasks"></i> Name</label>
+
+	    <input type="text" id="node-input-name" placeholder="Name">
+
+   </div>
+</script>
+
+<!-- Providing a help text for the node is the second step                   -->
+<script type="text/x-red" data-help-name="csharplib">
+<!-- This content appears in the  sidebar under the Tab Info                 -->
+    <p>This node is used to capture the data using the Input url and create a json string as its output</p>
+    <p>Outputs an object called <b>msg</b> containing <b>msg.topic</b> and
+
+    <b>msg.payload</b>. msg.payload is a String.</p>
+</script>
+</script>
+
+<!-- Registering the node with all its properties is carried out as the last step   -->
+<script type="text/javascript">
+    RED.nodes.registerType('csharplib',{
+        category: 'BIBA',
+        color: '#FFCC66',
+        defaults: {
+            name: {value:""},
+            version:{value:"0.0.1"}
+        },
+        inputs:0,
+        outputs:1,
+        icon: "debug.png",
+        label: function() {
+              return this.name||"csharplib";;
+          }
+      });
+</script>
